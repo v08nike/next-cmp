@@ -7,7 +7,7 @@ const Login = () => {
     try {
       const data = {
         username: "welcome",
-        userid: "welcome",
+        userid: document.getElementById("welcome"),
       };
 
       setCookie("user", JSON.stringify(data), {
@@ -23,7 +23,7 @@ const Login = () => {
   return (
     <>
       <label htmlFor="username">
-        <input type="text" placeholder="enter username" />
+        <input type="text" id="welcome" placeholder="enter username" />
         <button onClick={handleSignIn}>save cookies</button>
       </label>
     </>
