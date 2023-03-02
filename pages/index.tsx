@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import CookieBot from "../utils/CookieBot";
 import styles from "@/styles/Home.module.css";
+import Login from './Login';
 
 const inter = Inter({ subsets: ["latin"] });
 const domainGroupId = "8d800c34-f586-4199-be16-e1565f66822c";
@@ -32,7 +33,8 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <CookieBot domainGroupId={domainGroupId} />
-        <div className={styles.description}>
+        <Login />
+        {/* <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.tsx</code>
@@ -133,7 +135,7 @@ export default function Home() {
               with&nbsp;Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
     </>
   );
