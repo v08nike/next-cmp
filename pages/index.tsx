@@ -18,6 +18,7 @@ export default function Home() {
           src="https://consent.cookiefirst.com/sites/brilliant-melomakarona-027ca1.netlify.app-ba83551a-2422-4631-a2d1-e6c7a6915fb8/consent.js"
           async
         ></script>
+        <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/c45a001d105621d22402a92e/script.js" defer></script>
         {/* <script
           id="Cookiebot"
           src="https://consent.cookiebot.com/uc.js"
@@ -35,7 +36,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <div id="cookiefirst-policy-page"></div>
+          {/* <div id="cookiefirst-policy-page"></div>
           <div>
             This cookie policy has been created and updated by{" "}
             <a href="https://cookiefirst.com">CookieFirst.com</a>.
@@ -47,7 +48,7 @@ export default function Home() {
               CookieFirst consent management platform
             </a>
             .
-          </div>
+          </div> */}
 
           <p>
             Get started by editing&nbsp;
