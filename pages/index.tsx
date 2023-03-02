@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <script
           src="https://consent.cookiefirst.com/sites/brilliant-melomakarona-027ca1.netlify.app-ba83551a-2422-4631-a2d1-e6c7a6915fb8/consent.js"
-          defer
+          async
         ></script>
         {/* <script
           id="Cookiebot"
