@@ -35,7 +35,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <div id="cookiefirst-policy-page"></div>
+          {/* <div id="cookiefirst-policy-page"></div> */}
           <div>
             This cookie policy has been created and updated by{" "}
             <a href="https://cookiefirst.com">CookieFirst.com</a>.
